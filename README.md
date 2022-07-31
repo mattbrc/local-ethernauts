@@ -10,8 +10,6 @@ This challenge is based on https://ethernaut.openzeppelin.com/
 
 # How to solve each level
 
-update readme
-
 - If you look inside the `contracts/` directory you'll find 8 levels for you to solve!
 - Each level directory consists of the same structure, let's check out the first one to illustrate this:
   - **CoinFlip.sol**: This is the contract you're supposed to hack!
